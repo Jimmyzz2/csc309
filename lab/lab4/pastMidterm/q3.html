@@ -1,0 +1,10 @@
+<script>
+function apple(p) {
+    console.log(p.name);
+}
+
+const apple1 = new apple({ name: "red"});
+const apple2 = Object.create(new apple( {name: "blue"} ));
+console.log(apple2);
+
+</script>
